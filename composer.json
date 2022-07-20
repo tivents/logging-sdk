@@ -1,0 +1,28 @@
+{
+    "name": "tivents/logging-sdk",
+    "description": "connect your application to TIVENTS log service",
+    "type": "libary",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Willi Helwig",
+            "email": "willi.helwig@tivents.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7",
+        "pestphp/pest": "dev-master"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "TiventsLogging": "src/"
+        }
+    },
+    "require-dev": {
+        "laravel/pint": "dev-main"
+    }
+}
